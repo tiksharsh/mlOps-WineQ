@@ -55,8 +55,8 @@ def index():
                 # response = prediction.form_response(dict_req)
                 return render_template("index.html", response=response)
             elif request.json:
-                response = prediction.api_response(request.json)
-                # response = api_response(request)
+                # response = prediction.api_response(request.json)
+                response = api_response(request)
                 return jsonify(response)
 
         except Exception as e:
