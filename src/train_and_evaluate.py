@@ -84,8 +84,11 @@ def train_and_evaluate(config_path):
     os.makedirs(model_dir, exist_ok=True)
     model_path = os.path.join(model_dir, "model.joblib")
     joblib.dump(lr, model_path)
-    
-    pass
+ 
+# use below dvc cmds to chk datails
+#  dvc params diff
+#  dvc metrics show
+#  dvc metrics diff 
 
 
 if __name__ == "__main__":
