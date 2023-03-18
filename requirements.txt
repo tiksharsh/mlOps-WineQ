@@ -1,6 +1,7 @@
 dvc
 dvc[gdrive]
 sklearn
+scikit-learn
 pandas
 
 
