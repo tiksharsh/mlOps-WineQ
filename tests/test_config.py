@@ -1,4 +1,3 @@
-
 import pytest
 
 
@@ -16,4 +15,12 @@ def test_generic():
             raise NotInRange
         else:
             assert a == b
-    
+
+
+
+
+def test_somthing():
+    a = 5
+    b = 5
+
+    assert True
