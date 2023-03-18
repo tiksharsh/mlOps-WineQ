@@ -3,6 +3,8 @@ dvc[gdrive]
 sklearn
 scikit-learn
 pandas
+joblib
+
 
 
 
