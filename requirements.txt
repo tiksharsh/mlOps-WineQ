@@ -4,6 +4,8 @@ sklearn
 scikit-learn
 pandas
 joblib
+pytest
+tox
 
 
 
